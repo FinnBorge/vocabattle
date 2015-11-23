@@ -5,11 +5,11 @@ var mongoose = require('mongoose'),
     PORT = process.env.PORT || 3000;
 
   /* set controllers */
-  var articleRouter = require('./controllers/article.js');
-  server.use('/article', articleRouter);
-
-  var userRouter = require('./controllers/user.js');
-  server.use('/user', userRouter);
+  // var articleRouter = require('./controllers/article.js');
+  // server.use('/article', articleRouter);
+  //
+  // var userRouter = require('./controllers/user.js');
+  // server.use('/user', userRouter);
 
   server.get('/', function(req, res, next){
   res.redirect(302, '/article/index');

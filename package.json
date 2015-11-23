@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FinnBorge/vocabulary.git"
+    "url": "git+https://github.com/FinnBorge/vocabattle.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/FinnBorge/vocabulary/issues"
+    "url": "https://github.com/FinnBorge/vocabattle/issues"
   },
-  "homepage": "https://github.com/FinnBorg/vocabulary#readme",
+  "homepage": "https://github.com/FinnBorg/vocabattle#readme",
   "dependencies": {
     "autoprefixer": "^6.1.1",
     "bcryptjs": "^2.3.0",
