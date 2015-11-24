@@ -4,8 +4,8 @@ var mongoose = require('mongoose'),
     DBNAME = "vocabattle",
     PORT = process.env.PORT || 3000,
     /* Temporary */
-    User = require('./src/models/user.js'),
-    Word = require('./src/models/word.js');
+    User = require('./models/user.js'),
+    Word = require('./models/word.js');
     /* End Temporary */
 
   /* set controllers */
